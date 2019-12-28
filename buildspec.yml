@@ -1,0 +1,18 @@
+version:0.2
+phases:
+  install:
+    commands:
+      - echo nothing to do in the install phase
+  pre_build:
+    commands:
+      - echo nothing to do in the pre_build phase
+  build:
+    commands:
+      - echo build started on `date`
+      - mvn clean install
+  post_build:
+    commands:
+      - echo build completed on `date`
+artifacts:
+  files:
+    - target/spring-kotlin-app-0.0.1-SNAPSHOT.jar
