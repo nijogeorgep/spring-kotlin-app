@@ -1,6 +1,8 @@
 # Getting Started
 Spring Boot Kotlin Application
 
+Github Actions Enabled for this repo to buld and publish Docker Images after each Commit
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
