@@ -5,8 +5,6 @@ Github Actions Enabled for this repo to buld and publish Docker Images after eac
 
 https://github.com/kousen/spring-kotlin
 
-https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoicGdjWUFKUXdGOStnMnJqZnA2enVIQlcyTURCZmpmcjhxN21FOVJEMUNmdnhHYzEyaWkyL3Vqanh5dGNLQzRkdE5Jb0J3c1lMUG1hck9ZYjc2ZXRYNnZBPSIsIml2UGFyYW1ldGVyU3BlYyI6IktkWEhDRVVtVHJNRzRKc1YiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master
-
 ### Reference Documentation
 For further reference, please consider the following sections:
 
