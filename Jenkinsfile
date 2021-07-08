@@ -14,6 +14,7 @@ pipeline {
             when {
                 expression {
                     env.BRANCH_NAME == 'dev' || env.BRANCH_NAME != 'master'
+                }
             }
             steps {
                 echo 'Testing the application'
