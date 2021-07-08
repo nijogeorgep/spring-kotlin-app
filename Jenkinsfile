@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        NEW_VERSION = env.GIT_COMMIT
+        NEW_VERSION = '1.0.0'
     }
     stages {
         stage("build"){
