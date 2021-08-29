@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+#metadata
+metadata:
+  name: spring-kotlin-app-service
+#specification
+spec:
+  selector:
+    name: spring-kotlin-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
