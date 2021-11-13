@@ -3,10 +3,12 @@ kind: Deployment
 #metadata
 metadata:
   name: spring-kotlin-app-deployment
+  namespace: spring-kotlin-app
   labels:
+    name: spring-kotlin-app
 #specification
 spec:
-  replicas: 6
+  replicas: 3
   template:
     #template has its own metadata
     metadata:

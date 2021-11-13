@@ -3,11 +3,14 @@ kind: Service
 #metadata
 metadata:
   name: spring-kotlin-app-service
+  namespace: spring-kotlin-app
 #specification
 spec:
+  type: LoadBalancer
   selector:
     name: spring-kotlin-app
   ports:
-    - protocol: TCP
+    - nodePort: 30406
       port: 80
+      protocol: TCP
       targetPort: 8080

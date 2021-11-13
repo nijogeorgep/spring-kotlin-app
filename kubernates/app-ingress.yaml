@@ -2,14 +2,22 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: app-ingress
+  namespace: spring-kotlin-app
   annotations:
+    kubernetes.io/ingress.class: "nginx"
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  selector:
+    name: spring-kotlin-app
+  tls:
+  - hosts:
+    - marcel.test
+    secretName: marcel-tls-secret
   rules:
-    - host: spring-kotlin.com
+    - host: spring-kotlin-app.com
       http:
         paths:
-          - path: /app
+          - path: /
             pathType: Prefix
             backend:
               service:
