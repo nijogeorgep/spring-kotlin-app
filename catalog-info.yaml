@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-kotlin-app
+  description: Spring Application wrtten with Kotlin to explore the capabiities of Kotlin along with Spring Framework.
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: spring-kotlin-app
+    circleci.com/project-slug: github/nijogeorgep/spring-kotlin-app
+  tags:
+    - Java
+    - Kotlin
+    - Spring
+    - JDK17
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: cloudwalkers
+  system: internal
