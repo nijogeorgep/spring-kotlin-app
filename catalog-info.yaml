@@ -9,9 +9,7 @@ metadata:
     example.com/service-discovery: spring-kotlin-app
     circleci.com/project-slug: github/nijogeorgep/spring-kotlin-app
   tags:
-    - java
     - kotlin
-    - spring
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
