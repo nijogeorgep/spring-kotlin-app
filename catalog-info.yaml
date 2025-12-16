@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: nijogeorgep/spring-kotlin-app
 spec:
-  type: other
-  lifecycle: unknown
-  owner: group:default/cloudwalkers
+  type: service
+  lifecycle: experimental
+  owner: group:default/cloudwalkersinc
