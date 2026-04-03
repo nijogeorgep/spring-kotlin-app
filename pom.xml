@@ -106,6 +106,7 @@
                         <name>${project.artifactId}</name>
                         <pullPolicy>IF_NOT_PRESENT</pullPolicy>
                         <env>
+                            <BP_OPENTELEMETRY_ENABLED>true</BP_OPENTELEMETRY_ENABLED>
                             <!-- Pin JVM version to match pom.xml java.version -->
                             <BP_JVM_VERSION>21</BP_JVM_VERSION>
                             <!-- Use JRE instead of JDK for a smaller runtime image -->
