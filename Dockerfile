@@ -1,5 +1,5 @@
 # Use the official image as a parent image.
-FROM eclipse-temurin:11-jre-alpine
+FROM eclipse-temurin:11-jre
 
 #Maintainer Information
 LABEL maintainer="npayyappilly@expedia.com"
