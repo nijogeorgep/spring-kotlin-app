@@ -1,5 +1,5 @@
 # Use the official image as a parent image.
-FROM openjdk:11.0.2-oracle
+FROM eclipse-temurin:11-jre-alpine
 
 #Maintainer Information
 LABEL maintainer="npayyappilly@expedia.com"
